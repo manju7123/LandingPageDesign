@@ -1,0 +1,126 @@
+.navbar{
+    display:flex;
+    flex-direction: column;
+    min-height:52px;
+    width:1240px;
+    padding:32px 100px 32px 100px;
+}
+.header-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-left-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 388px;
+height: 32px;
+gap: 40px;
+}
+.menu-links-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu-link{
+    font-family: "Poppins";
+font-size: 16px;
+font-weight: bold;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-left:24px;
+color:#2B2730;
+width: 58px;
+height: 24px;
+}
+.menu-right-card{
+    width: 288px;
+height:52px;
+gap: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.menu-right-para{
+    font-family: "Poppins";
+font-size: 16px;
+font-weight: bold;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:#2B2730;
+}
+.sign-button{
+padding: 16px, 32px, 16px, 32px;
+border-radius: 100px;
+gap: 10px;
+background-color:#2B2730;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color:#ffffff;
+width: 112px;
+height: 52px;
+}
+.menu-mobile-right-card{
+    display:none;
+}
+@media screen and (max-width:360px){
+    .navbar{
+        min-height:24px;
+        width:328px;
+        padding:24px 16px 24px 16px;
+    }
+    .logo-image{
+        width: 72px;
+height: 24px;
+padding: 4.68px, 0px, 1.23px, 0px
+    }
+    .menu-links-card{
+        display: none;
+    }
+    .menu-right-card{
+    display: none;
+    }
+    .menu-mobile-right-card{
+        display:flex;
+    }
+    .menu-button{
+        background-color: transparent;
+        border:none;
+    }
+    .menu-mobile-links{
+        font-family: "Poppins";
+font-size: 16px;
+font-weight: bold;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-left:24px;
+color:#2B2730;
+width: 58px;
+height: 24px;
+    }
+    .sign-mobile-button{
+        padding: 16px, 32px, 16px, 32px;
+border-radius: 100px;
+gap: 10px;
+background-color:#2B2730;
+font-family: Poppins;
+font-size: 10px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color:#ffffff;
+border: none;
+width: 58px;
+margin-left: 24px;
+    }
+}
